@@ -1,0 +1,88 @@
+/*
+	# Estilos Gerais
+*/
+*{padding: 0; margin: 0;}
+
+body{
+	margin:0 auto; /*define margens*/
+	font-family: Helvetica, Arial;
+
+	max-width: 980px; /*largura máxima do conteúdo do body*/
+	background-color: #c4c4c4;
+}
+
+h1, h2, h3, h4{
+	margin:0;
+	padding: 0;
+	font-family: 'Anton' ,'Trade Winds', Arial;
+}
+
+/*
+	# Estilos Estruturais
+*/
+
+#cabecalho{
+	width:auto; /*largura*/
+	height:130px; /*altura*/
+	line-height:80px; /*alinha horizontalmente*/
+	text-align: center; /*centraliza o texto*/ 
+	background-color: #697478; /*cor de fundo*/
+	color: #ffffff;
+	font-family: 'Trade Winds', Arial; /*tipo da fonte*/
+}
+
+#cabecalho a{
+	width: 25%;
+	float: left;
+}
+
+#corpo{
+	margin: 0;
+	width: 100%;
+	display:flex; /*comportamento do elemento*/
+	height: auto;
+}
+
+
+#conteudo{
+	width: 100%;
+	padding: 20px; /*espaçamento do conteúdo do objeto*/
+	background-color: #ffffff;
+}
+.comer{
+	clear: both;
+}
+.hospedar{
+	clear: both;
+}
+.sobre{
+	clear: both;
+}
+
+.comer section{	
+	float: left;
+	margin: 2px;
+}
+
+.hospedar section{
+	float: left;
+	margin: 2px;
+}
+#rodape{
+	width: auto;
+	height: auto;
+	padding: 20px;
+	background-color: #CAC494;
+}
+
+@media screen and (max-width:568)
+{
+
+}
+
+@media screen and (min-width:569)
+{
+	#cabecalho a{
+		width: 25%;
+	}
+}
